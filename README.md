@@ -8,12 +8,10 @@ A cookbook for installing idocs from Mashery (https://github.com/mashery/iodocs)
 * npm - https://github.com/balbeko/chef-npm
 * redis-server - Inline for now, Community ones are abandoned.
 
-Version 0.1
-===========
+## Version 0.1
 * Initial release, works with Ubuntu 12.10 (may work with others, untested.)
 
-TODO
-====
+## TODO
 * npm-cookbook re-installs iodocs npm package each time, known bug with npm-cookbook.
 * Include to other OS's.
 * Move redis-server to it's own cookbook.
