@@ -13,7 +13,7 @@ end
 package 'redis-server'
 
 # Default config for iodocs
-template "/usr/local/lib/node_modules/iodocs/config.json" do
+template "#{node['nodejs']['global_node_modules_dir']}/iodocs/config.json" do
   source "config.json.erb"
   mode 0655
 end

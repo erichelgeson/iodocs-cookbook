@@ -7,8 +7,8 @@
 
 
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-DAEMON=/usr/local/bin/node
-DAEMON_ARGS=/usr/local/lib/node_modules/iodocs/app.js
+DAEMON=<%= node['nodejs']['executable'] %>
+DAEMON_ARGS=<%= node['nodejs']['global_node_modules_dir'] %>/iodocs/app.js
 NAME=iodocs-server
 DESC=iodocs-server
 
